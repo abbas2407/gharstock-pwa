@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Offline - GharStock</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #faf6f0;
+        color: #2d5016;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        padding: 20px;
+      }
+      .card {
+        background: white;
+        padding: 24px;
+        border-radius: 20px;
+        text-align: center;
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+        max-width: 320px;
+      }
+      button {
+        margin-top: 16px;
+        background: #3d6b2e;
+        color: white;
+        border: none;
+        padding: 12px 18px;
+        border-radius: 12px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <h1>GharStock</h1>
+      <p>Aap offline hain. Internet aane par dubara try karein.</p>
+      <button onclick="location.reload()">Retry</button>
+    </div>
+  </body>
+</html>
